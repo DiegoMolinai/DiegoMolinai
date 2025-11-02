@@ -2,8 +2,11 @@ name: Generate snake
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # corre todos los días a las 03:00 UTC
+    - cron: "0 3 * * *"   # corre a las 03:00 UTC
   workflow_dispatch:
+
+permissions:
+  contents: write         # necesario para publicar en la rama output
 
 jobs:
   build:
@@ -19,12 +22,12 @@ jobs:
           outputs: |
             dist/snake.svg
 
-      - name: Commit & Push
-        run: |
-          mkdir -p output
-          cp dist/snake.svg output/snake.svg
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "chore: update snake" || echo "No changes"
-          git push
+      # Publica dist/ en la rama "output" (raíz)
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
