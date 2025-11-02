@@ -128,8 +128,8 @@
 > La imagen se genera con un workflow de GitHub Actions (ver sección de workflows). Si aún no aparece, lánzalo en **Actions → Generate snake → Run workflow**.
 
 <p align="center">
-  <!-- IMPORTANTE: esta URL lee desde la rama `output` -->
-  <img src="https://raw.githubusercontent.com/DiegoMolinai/DiegoMolinai/output/snake.svg" alt="Animación de contribuciones"/>
+  <!-- Render desde la rama `output` -->
+  <img src="https://raw.githubusercontent.com/DiegoMolinai/DiegoMolinai/output/metrics.svg" alt="GitHub Metrics"/>
 </p>
 
 <!-- Footer -->
