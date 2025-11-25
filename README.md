@@ -1,5 +1,5 @@
 <!-- =========================================================
-  Encabezado con onda + tipografía animada (sin workflows)
+  Encabezado con onda + tipografía animada
 ========================================================= -->
 <div align="center">
   <img
@@ -9,57 +9,59 @@
   />
 </div>
 
-<!-- Presentación con typing SVG -->
-<p align="center">
+<!-- Hero: foto + typing + chips -->
+<div align="center">
+  <img
+    src="./assets/avatar-diego.jpg"
+    alt="Foto de Diego Molina"
+    width="170"
+    style="border-radius:5%;border:2px solid lightgreen"
+  />
+  
+  <br/><br/>
+  
+  <!-- Presentación con typing SVG -->
   <a href="https://git.io/typing-svg">
     <img
       src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1200&color=8B5CF6&center=true&vCenter=true&width=900&lines=%C2%A1Hola%21+Soy+Diego+Molina;Full-Stack+Developer+%E2%80%A2+React+%E2%80%A2+Node+%E2%80%A2+Mongo+%E2%80%A2+SQL;Arquitectura+%26+DevOps+%7C+DX+%7C+CI%2FCD;Siempre+aprendiendo+y+construyendo+cosas+%F0%9F%9A%80"
       alt="Typing SVG"
     />
   </a>
-</p>
 
-<!-- Banner modo claro/oscuro -->
-<p align="center">
-  <picture>
-    <source srcset="./assets/banner-dark.jpg" media="(prefers-color-scheme: dark)" />
-    <img src="./assets/banner-light.jpg" alt="Banner" width="100%" />
-  </picture>
-</p>
+<br/><br/>
 
-<!-- NAV tipo pastillas (sin estadísticas) -->
-<p align="center" style="margin: 12px 0;">
+  <!-- NAV tipo pastillas -->
   <a href="#-sobre-mí">
     <img
       alt="Sobre mí"
-      src="https://img.shields.io/badge/-Sobre%20m%C3%AD-1f2937?style=for-the-badge&color=8b5cf6"
+      src="https://img.shields.io/badge/-Sobre%20m%C3%AD-8b5cf6?style=for-the-badge"
     />
   </a>
   <a href="#-tech-stack">
     <img
       alt="Tech Stack"
-      src="https://img.shields.io/badge/-Tech%20Stack-1f2937?style=for-the-badge&color=0ea5e9"
+      src="https://img.shields.io/badge/-Tech%20Stack-0ea5e9?style=for-the-badge"
     />
   </a>
   <a href="#-proyectos-destacados">
     <img
       alt="Proyectos"
-      src="https://img.shields.io/badge/-Proyectos-1f2937?style=for-the-badge&color=22c55e"
+      src="https://img.shields.io/badge/-Proyectos-22c55e?style=for-the-badge"
     />
   </a>
   <a href="#-galería--elementos">
     <img
       alt="Galería"
-      src="https://img.shields.io/badge/-Galer%C3%ADa-1f2937?style=for-the-badge&color=f59e0b"
+      src="https://img.shields.io/badge/-Galer%C3%ADa-f59e0b?style=for-the-badge"
     />
   </a>
   <a href="#-conecta-conmigo">
     <img
       alt="Contacto"
-      src="https://img.shields.io/badge/-Contacto-1f2937?style=for-the-badge&color=14b8a6"
+      src="https://img.shields.io/badge/-Contacto-14b8a6?style=for-the-badge"
     />
   </a>
-</p>
+</div>
 
 <!-- separador onda -->
 <div>
@@ -259,8 +261,6 @@
   </tbody>
 </table>
 
-> Tip (minimal): Devicon → https://cdn.jsdelivr.net/gh/devicons/devicon/icons/&lt;tech&gt;/&lt;tech&gt;-original.svg
-
 <!-- separador onda -->
 <div>
   <svg width="100%" height="56" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -432,11 +432,6 @@
 - 🐙 GitHub: **https://github.com/DiegoMolinai**
 - ✉️ Email: **diego.molina.illanes@gmail.com**
 
-<!-- Footer -->
-<p align="center">
-  <sub>Hecho con ❤️ y café. Personaliza las imágenes en <code>./assets</code>.</sub>
-</p>
-
 <!-- Cierre con onda -->
 <div align="center">
   <img
@@ -445,8 +440,3 @@
     alt="wave footer"
   />
 </div>
-
-<!-- Última edición -->
-<p align="center">
-  <sub>Last Edited on: 11/11/2025</sub>
-</p>
