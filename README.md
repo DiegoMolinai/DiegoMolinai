@@ -12,7 +12,7 @@
 <!-- Hero: foto + typing + chips -->
 <div align="center">
   <img
-    src="./assets/avatar-diego.jpg"
+    src="./assets/avatar-diego.png"
     alt="Foto de Diego Molina"
     width="170"
     style="border-radius:5%;"
