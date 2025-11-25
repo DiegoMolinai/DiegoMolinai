@@ -15,7 +15,7 @@
     src="./assets/avatar-diego.jpg"
     alt="Foto de Diego Molina"
     width="170"
-    style="border-radius:5%;border:2px solid lightgreen"
+    style="border-radius:5%;"
   />
   
   <br/><br/>
